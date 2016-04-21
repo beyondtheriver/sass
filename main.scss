@@ -1,0 +1,62 @@
+// background color
+$home-back: #664141;
+// plain font
+$main-font: sans-serif;
+//font color for nav bar
+$nav-font-color: white;
+// background color for nav bar
+$nav-back-color: #000041;
+// fun font
+$fun-font: 'Amatic SC', cursive;
+
+body{
+   background-color: $home-back;
+   font-family: $fun-font;
+}
+nav{
+   width: 100%;
+   background-color: $nav-back-color;
+   ul{
+      // horizontal nav bar
+      color: $nav-font-color;
+      display: inline;
+   }
+   li{
+      display: inline-block;
+      padding: 20px;
+   }
+   a{
+      // no link decoration
+      text-decoration: none;
+      color: $nav-font-color;
+   }
+}
+header{
+   text-align: center;
+   font-family: $fun-font;
+   h1{
+   text-align: center;
+   font-size: 4em;
+   font-family: $fun-font;
+   }
+   h4{
+   font-size: 2em;
+   }
+}
+#glorious{
+   width: 100%;
+   img{
+      width: 30%;
+      height: auto;
+      margin: 20px;
+   }
+}
+#stats{
+   // importing because style of content is the same after header
+   @import 'content_div';
+}
+#activities{
+   // extending stats because it has the same styling with better color text
+   @extend #stats;
+   color: orange;
+}

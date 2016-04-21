@@ -1,0 +1,43 @@
+body {
+  background-color: #664141;
+  font-family: "Amatic SC", cursive; }
+
+nav {
+  width: 100%;
+  background-color: #000041; }
+  nav ul {
+    color: white;
+    display: inline; }
+  nav li {
+    display: inline-block;
+    padding: 20px; }
+  nav a {
+    text-decoration: none;
+    color: white; }
+
+header {
+  text-align: center;
+  font-family: "Amatic SC", cursive; }
+  header h1 {
+    text-align: center;
+    font-size: 4em;
+    font-family: "Amatic SC", cursive; }
+  header h4 {
+    font-size: 2em; }
+
+#glorious {
+  width: 100%; }
+  #glorious img {
+    width: 30%;
+    height: auto;
+    margin: 20px; }
+
+#stats h1, #activities h1 {
+  font-size: 3.5em; }
+#stats ul, #activities ul {
+  font-size: 2em; }
+
+#activities {
+  color: orange; }
+
+/*# sourceMappingURL=main.css.map */
